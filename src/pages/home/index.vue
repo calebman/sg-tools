@@ -30,7 +30,6 @@
 </template>
 <script>
 import { ToolOutlined, QuestionCircleOutlined } from "@ant-design/icons-vue";
-import evDiffSvg from '../../assets/ev-diff.svg'
 import excelDropSvg from '../../assets/excel-drop.svg'
 export default {
   components: {
