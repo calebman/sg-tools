@@ -36,7 +36,7 @@ export default {
     return {
       fileList: [],
       defaultFilterCode: `function(item){ 
-        return !/^d+(.d+)?$/.test(item[0]) && (item[0] < 8 || item[0] > 7304)
+        return !/^\d+(\.\d+)+$/.test(item[0]) && (item[0] < 8 || item[0] > 7304)
 }`,
       filterCode: ""
     }
