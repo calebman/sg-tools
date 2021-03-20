@@ -18,6 +18,6 @@ const routes = [
 ]
 
 export default createRouter({
-    history: createWebHistory('/sg-tools/'),
+    history: createWebHistory(),
     routes: routes
 })
